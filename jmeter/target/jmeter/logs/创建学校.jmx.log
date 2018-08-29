@@ -1,0 +1,683 @@
+2018-08-29 11:14:10,736 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2018-08-29 11:14:10,771 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-08-29 11:14:10,780 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-08-29 11:14:10,780 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-08-29 11:14:10,780 INFO o.a.j.JMeter: java.version=1.8.0_181
+2018-08-29 11:14:10,780 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-08-29 11:14:10,780 INFO o.a.j.JMeter: os.name=Windows 10
+2018-08-29 11:14:10,780 INFO o.a.j.JMeter: os.arch=amd64
+2018-08-29 11:14:10,808 INFO o.a.j.JMeter: os.version=10.0
+2018-08-29 11:14:10,808 INFO o.a.j.JMeter: file.encoding=GBK
+2018-08-29 11:14:10,808 INFO o.a.j.JMeter: Max memory     =514850816
+2018-08-29 11:14:10,808 INFO o.a.j.JMeter: Available Processors =8
+2018-08-29 11:14:10,820 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2018-08-29 11:14:10,820 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2018-08-29 11:14:10,820 INFO o.a.j.JMeter: JMeterHome=C:\Users\23754\Documents\jmeter\jmeter\target\jmeter
+2018-08-29 11:14:10,820 INFO o.a.j.JMeter: user.dir  =C:\Users\23754\Documents\jmeter\jmeter\target\jmeter\bin
+2018-08-29 11:14:10,820 INFO o.a.j.JMeter: PWD       =C:\Users\23754\Documents\jmeter\jmeter\target\jmeter\bin
+2018-08-29 11:14:10,828 INFO o.a.j.JMeter: IP: 10.38.1.142 Name: LAPTOP-J67QGIDS FullName: LAPTOP-J67QGIDS
+2018-08-29 11:14:10,828 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\23754\Documents\jmeter\jmeter\target\jmeter\reports\创建学校_20180829_111408'
+2018-08-29 11:14:10,832 INFO o.a.j.s.FileServer: Default base='C:\Users\23754\Documents\jmeter\jmeter\target\jmeter\bin'
+2018-08-29 11:14:10,840 INFO o.a.j.s.FileServer: Set new base='C:\Users\23754\Documents\jmeter\jmeter\target\jmeter\testFiles'
+2018-08-29 11:14:11,071 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-08-29 11:14:11,093 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-08-29 11:14:11,101 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-08-29 11:14:11,113 INFO o.a.j.s.SaveService: Loading file: C:\Users\23754\Documents\jmeter\jmeter\target\jmeter\testFiles\创建学校.jmx
+2018-08-29 11:14:11,209 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-29 11:14:11,209 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-29 11:14:11,209 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-29 11:14:11,209 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-29 11:14:11,209 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-08-29 11:14:11,209 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-08-29 11:14:11,266 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-08-29 11:14:11,275 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2018-08-29 11:14:11,275 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: C:\tmp\jmeter\创建学校.csv
+2018-08-29 11:14:11,276 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\23754\Documents\jmeter\jmeter\target\jmeter\bin\reportgenerator.properties
+2018-08-29 11:14:11,277 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2018-08-29 11:14:11,285 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2018-08-29 11:14:11,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2018-08-29 11:14:11,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2018-08-29 11:14:11,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2018-08-29 11:14:11,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2018-08-29 11:14:11,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2018-08-29 11:14:11,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2018-08-29 11:14:11,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2018-08-29 11:14:11,293 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2018-08-29 11:14:11,301 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-08-29 11:14:11,301 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2018-08-29 11:14:11,301 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2018-08-29 11:14:11,301 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2018-08-29 11:14:11,301 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2018-08-29 11:14:11,301 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-08-29 11:14:11,305 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-08-29 11:14:11,305 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-08-29 11:14:11,305 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-08-29 11:14:11,309 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2018-08-29 11:14:11,309 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2018-08-29 11:14:11,309 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2018-08-29 11:14:11,317 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-08-29 11:14:11,317 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-08-29 11:14:11,317 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-08-29 11:14:11,325 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-08-29 11:14:11,325 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-08-29 11:14:11,991 INFO o.a.j.JMeter: 正在运行的测试 (1535512451991)
+2018-08-29 11:14:12,147 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-08-29 11:14:12,147 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2018-08-29 11:14:12,147 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-08-29 11:14:12,147 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2018-08-29 11:14:12,160 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-08-29 11:14:12,161 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-08-29 11:14:12,219 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-08-29 11:14:12,219 INFO o.a.j.s.FileServer: Stored: d:\school.txt
+2018-08-29 11:14:12,247 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-J67QGIDS
+2018-08-29 11:14:12,260 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-08-29 11:14:12,271 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-08-29 11:14:12,271 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-08-29 11:14:12,271 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-08-29 11:14:12,271 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-08-29 11:14:12,721 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2018-08-29 11:14:30,042 INFO o.a.j.r.Summariser: summary +    349 in 00:00:18 =   19.3/s Avg:    99 Min:    64 Max:   640 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:15:00,040 INFO o.a.j.r.Summariser: summary +    587 in 00:00:30 =   19.6/s Avg:   101 Min:    67 Max:   215 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:15:00,044 INFO o.a.j.r.Summariser: summary =    936 in 00:00:48 =   19.5/s Avg:   101 Min:    64 Max:   640 Err:     0 (0.00%)
+2018-08-29 11:15:30,157 INFO o.a.j.r.Summariser: summary +    565 in 00:00:30 =   18.8/s Avg:   105 Min:    66 Max:   670 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:15:30,157 INFO o.a.j.r.Summariser: summary =   1501 in 00:01:18 =   19.2/s Avg:   102 Min:    64 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:16:00,039 INFO o.a.j.r.Summariser: summary +    588 in 00:00:30 =   19.7/s Avg:   102 Min:    66 Max:   598 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:16:00,039 INFO o.a.j.r.Summariser: summary =   2089 in 00:01:48 =   19.3/s Avg:   102 Min:    64 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:16:30,033 INFO o.a.j.r.Summariser: summary +    583 in 00:00:30 =   19.4/s Avg:   102 Min:    69 Max:   286 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:16:30,033 INFO o.a.j.r.Summariser: summary =   2672 in 00:02:18 =   19.4/s Avg:   102 Min:    64 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:17:00,047 INFO o.a.j.r.Summariser: summary +    577 in 00:00:30 =   19.2/s Avg:   103 Min:    67 Max:   236 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:17:00,047 INFO o.a.j.r.Summariser: summary =   3249 in 00:02:48 =   19.3/s Avg:   102 Min:    64 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:17:30,030 INFO o.a.j.r.Summariser: summary +    590 in 00:00:30 =   19.7/s Avg:   101 Min:    65 Max:   242 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:17:30,030 INFO o.a.j.r.Summariser: summary =   3839 in 00:03:18 =   19.4/s Avg:   102 Min:    64 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:18:00,001 INFO o.a.j.r.Summariser: summary +    590 in 00:00:30 =   19.7/s Avg:   101 Min:    59 Max:   236 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:18:00,002 INFO o.a.j.r.Summariser: summary =   4429 in 00:03:48 =   19.4/s Avg:   102 Min:    59 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:18:30,029 INFO o.a.j.r.Summariser: summary +    626 in 00:00:30 =   20.8/s Avg:    95 Min:    63 Max:   239 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:18:30,029 INFO o.a.j.r.Summariser: summary =   5055 in 00:04:18 =   19.6/s Avg:   101 Min:    59 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:19:00,013 INFO o.a.j.r.Summariser: summary +    590 in 00:00:30 =   19.7/s Avg:   101 Min:    63 Max:   409 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:19:00,014 INFO o.a.j.r.Summariser: summary =   5645 in 00:04:48 =   19.6/s Avg:   101 Min:    59 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:19:30,010 INFO o.a.j.r.Summariser: summary +    613 in 00:00:30 =   20.4/s Avg:    97 Min:    63 Max:   224 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:19:30,010 INFO o.a.j.r.Summariser: summary =   6258 in 00:05:18 =   19.7/s Avg:   101 Min:    59 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:20:00,039 INFO o.a.j.r.Summariser: summary +    604 in 00:00:30 =   20.1/s Avg:    99 Min:    60 Max:   226 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:20:00,039 INFO o.a.j.r.Summariser: summary =   6862 in 00:05:48 =   19.7/s Avg:   101 Min:    59 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:20:30,047 INFO o.a.j.r.Summariser: summary +    625 in 00:00:30 =   20.8/s Avg:    95 Min:    61 Max:   235 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:20:30,047 INFO o.a.j.r.Summariser: summary =   7487 in 00:06:18 =   19.8/s Avg:   100 Min:    59 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:21:00,019 INFO o.a.j.r.Summariser: summary +    617 in 00:00:30 =   20.6/s Avg:    96 Min:    59 Max:   593 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:21:00,019 INFO o.a.j.r.Summariser: summary =   8104 in 00:06:48 =   19.9/s Avg:   100 Min:    59 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:21:30,013 INFO o.a.j.r.Summariser: summary +    606 in 00:00:30 =   20.2/s Avg:    98 Min:    62 Max:   216 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:21:30,013 INFO o.a.j.r.Summariser: summary =   8710 in 00:07:18 =   19.9/s Avg:   100 Min:    59 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:22:00,034 INFO o.a.j.r.Summariser: summary +    623 in 00:00:30 =   20.8/s Avg:    96 Min:    64 Max:   323 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:22:00,038 INFO o.a.j.r.Summariser: summary =   9333 in 00:07:48 =   19.9/s Avg:    99 Min:    59 Max:   670 Err:     0 (0.00%)
+2018-08-29 11:22:30,025 INFO o.a.j.r.Summariser: summary +    585 in 00:00:30 =   19.5/s Avg:   102 Min:    66 Max:   940 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:22:30,029 INFO o.a.j.r.Summariser: summary =   9918 in 00:08:18 =   19.9/s Avg:   100 Min:    59 Max:   940 Err:     0 (0.00%)
+2018-08-29 11:23:00,043 INFO o.a.j.r.Summariser: summary +    616 in 00:00:30 =   20.5/s Avg:    97 Min:    65 Max:   246 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:23:00,043 INFO o.a.j.r.Summariser: summary =  10534 in 00:08:48 =   19.9/s Avg:    99 Min:    59 Max:   940 Err:     0 (0.00%)
+2018-08-29 11:23:30,010 INFO o.a.j.r.Summariser: summary +    573 in 00:00:30 =   19.1/s Avg:   104 Min:    62 Max:   223 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:23:30,010 INFO o.a.j.r.Summariser: summary =  11107 in 00:09:18 =   19.9/s Avg:   100 Min:    59 Max:   940 Err:     0 (0.00%)
+2018-08-29 11:24:00,124 INFO o.a.j.r.Summariser: summary +    588 in 00:00:30 =   19.5/s Avg:   101 Min:    57 Max:  3152 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:24:00,124 INFO o.a.j.r.Summariser: summary =  11695 in 00:09:48 =   19.9/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:24:30,070 INFO o.a.j.r.Summariser: summary +    590 in 00:00:30 =   19.7/s Avg:   101 Min:    68 Max:   280 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:24:30,070 INFO o.a.j.r.Summariser: summary =  12285 in 00:10:18 =   19.9/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:25:00,004 INFO o.a.j.r.Summariser: summary +    593 in 00:00:30 =   19.8/s Avg:   100 Min:    66 Max:   277 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:25:00,004 INFO o.a.j.r.Summariser: summary =  12878 in 00:10:48 =   19.9/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:25:30,030 INFO o.a.j.r.Summariser: summary +    591 in 00:00:30 =   19.7/s Avg:   101 Min:    73 Max:   267 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:25:30,035 INFO o.a.j.r.Summariser: summary =  13469 in 00:11:18 =   19.9/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:26:00,032 INFO o.a.j.r.Summariser: summary +    543 in 00:00:30 =   18.1/s Avg:   110 Min:    67 Max:   624 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:26:00,036 INFO o.a.j.r.Summariser: summary =  14012 in 00:11:48 =   19.8/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:26:30,022 INFO o.a.j.r.Summariser: summary +    593 in 00:00:30 =   19.8/s Avg:   100 Min:    65 Max:   272 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:26:30,022 INFO o.a.j.r.Summariser: summary =  14605 in 00:12:18 =   19.8/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:27:00,008 INFO o.a.j.r.Summariser: summary +    574 in 00:00:30 =   19.1/s Avg:   104 Min:    59 Max:   304 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:27:00,008 INFO o.a.j.r.Summariser: summary =  15179 in 00:12:48 =   19.8/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:27:30,021 INFO o.a.j.r.Summariser: summary +    584 in 00:00:30 =   19.5/s Avg:   102 Min:    66 Max:   241 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:27:30,025 INFO o.a.j.r.Summariser: summary =  15763 in 00:13:18 =   19.8/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:28:00,054 INFO o.a.j.r.Summariser: summary +    610 in 00:00:30 =   20.3/s Avg:    98 Min:    58 Max:   315 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:28:00,054 INFO o.a.j.r.Summariser: summary =  16373 in 00:13:48 =   19.8/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:28:30,025 INFO o.a.j.r.Summariser: summary +    616 in 00:00:30 =   20.6/s Avg:    97 Min:    58 Max:   266 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:28:30,025 INFO o.a.j.r.Summariser: summary =  16989 in 00:14:18 =   19.8/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:29:00,008 INFO o.a.j.r.Summariser: summary +    578 in 00:00:30 =   19.3/s Avg:   103 Min:    63 Max:   308 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:29:00,024 INFO o.a.j.r.Summariser: summary =  17567 in 00:14:48 =   19.8/s Avg:   100 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:29:30,159 INFO o.a.j.r.Summariser: summary +    562 in 00:00:30 =   18.6/s Avg:   106 Min:    59 Max:   419 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:29:30,159 INFO o.a.j.r.Summariser: summary =  18129 in 00:15:18 =   19.7/s Avg:   101 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:30:00,049 INFO o.a.j.r.Summariser: summary +    549 in 00:00:30 =   18.4/s Avg:   109 Min:    58 Max:   398 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:30:00,050 INFO o.a.j.r.Summariser: summary =  18678 in 00:15:48 =   19.7/s Avg:   101 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:30:30,052 INFO o.a.j.r.Summariser: summary +    521 in 00:00:30 =   17.4/s Avg:   115 Min:    62 Max:   456 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:30:30,052 INFO o.a.j.r.Summariser: summary =  19199 in 00:16:18 =   19.6/s Avg:   101 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:31:00,129 INFO o.a.j.r.Summariser: summary +    539 in 00:00:30 =   17.9/s Avg:   111 Min:    70 Max:   482 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:31:00,129 INFO o.a.j.r.Summariser: summary =  19738 in 00:16:48 =   19.6/s Avg:   101 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:31:30,089 INFO o.a.j.r.Summariser: summary +    531 in 00:00:30 =   17.7/s Avg:   112 Min:    57 Max:   301 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:31:30,089 INFO o.a.j.r.Summariser: summary =  20269 in 00:17:18 =   19.5/s Avg:   102 Min:    57 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:32:00,031 INFO o.a.j.r.Summariser: summary +    433 in 00:00:30 =   14.5/s Avg:   138 Min:    55 Max:  3075 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:32:00,031 INFO o.a.j.r.Summariser: summary =  20702 in 00:17:48 =   19.4/s Avg:   102 Min:    55 Max:  3152 Err:     0 (0.00%)
+2018-08-29 11:32:30,002 INFO o.a.j.r.Summariser: summary +    315 in 00:00:30 =   10.5/s Avg:   190 Min:    57 Max:  3453 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:32:30,003 INFO o.a.j.r.Summariser: summary =  21017 in 00:18:18 =   19.1/s Avg:   104 Min:    55 Max:  3453 Err:     0 (0.00%)
+2018-08-29 11:33:00,075 INFO o.a.j.r.Summariser: summary +    214 in 00:00:30 =    7.1/s Avg:   280 Min:    78 Max:  1648 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:33:00,076 INFO o.a.j.r.Summariser: summary =  21231 in 00:18:48 =   18.8/s Avg:   106 Min:    55 Max:  3453 Err:     0 (0.00%)
+2018-08-29 11:33:30,442 INFO o.a.j.r.Summariser: summary +    183 in 00:00:30 =    6.0/s Avg:   321 Min:    89 Max:  1962 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:33:30,444 INFO o.a.j.r.Summariser: summary =  21414 in 00:19:18 =   18.5/s Avg:   107 Min:    55 Max:  3453 Err:     0 (0.00%)
+2018-08-29 11:34:00,016 INFO o.a.j.r.Summariser: summary +    141 in 00:00:30 =    4.8/s Avg:   432 Min:    83 Max:  4774 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:34:00,017 INFO o.a.j.r.Summariser: summary =  21555 in 00:19:48 =   18.1/s Avg:   109 Min:    55 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:34:30,030 INFO o.a.j.r.Summariser: summary +    442 in 00:00:30 =   14.7/s Avg:   135 Min:    62 Max:   363 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:34:30,034 INFO o.a.j.r.Summariser: summary =  21997 in 00:20:18 =   18.1/s Avg:   110 Min:    55 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:35:00,141 INFO o.a.j.r.Summariser: summary +    423 in 00:00:30 =   14.0/s Avg:   141 Min:    60 Max:   496 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:35:00,142 INFO o.a.j.r.Summariser: summary =  22420 in 00:20:48 =   18.0/s Avg:   111 Min:    55 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:35:30,064 INFO o.a.j.r.Summariser: summary +    389 in 00:00:30 =   13.0/s Avg:   153 Min:    68 Max:   565 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:35:30,065 INFO o.a.j.r.Summariser: summary =  22809 in 00:21:18 =   17.8/s Avg:   111 Min:    55 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:36:00,047 INFO o.a.j.r.Summariser: summary +    526 in 00:00:30 =   17.5/s Avg:   113 Min:    57 Max:   324 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:36:00,048 INFO o.a.j.r.Summariser: summary =  23335 in 00:21:48 =   17.8/s Avg:   111 Min:    55 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:36:30,012 INFO o.a.j.r.Summariser: summary +    502 in 00:00:30 =   16.8/s Avg:   119 Min:    59 Max:   465 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:36:30,013 INFO o.a.j.r.Summariser: summary =  23837 in 00:22:18 =   17.8/s Avg:   112 Min:    55 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:37:00,046 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.6/s Avg:   119 Min:    54 Max:   326 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:37:00,046 INFO o.a.j.r.Summariser: summary =  24337 in 00:22:48 =   17.8/s Avg:   112 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:37:30,086 INFO o.a.j.r.Summariser: summary +    416 in 00:00:30 =   13.8/s Avg:   144 Min:    62 Max:  1194 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:37:30,087 INFO o.a.j.r.Summariser: summary =  24753 in 00:23:18 =   17.7/s Avg:   112 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:38:00,088 INFO o.a.j.r.Summariser: summary +    253 in 00:00:30 =    8.4/s Avg:   236 Min:    65 Max:  1417 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:38:00,089 INFO o.a.j.r.Summariser: summary =  25006 in 00:23:48 =   17.5/s Avg:   113 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:38:30,059 INFO o.a.j.r.Summariser: summary +    292 in 00:00:30 =    9.7/s Avg:   203 Min:    79 Max:   885 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:38:30,059 INFO o.a.j.r.Summariser: summary =  25298 in 00:24:18 =   17.4/s Avg:   115 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:39:00,053 INFO o.a.j.r.Summariser: summary +    290 in 00:00:30 =    9.7/s Avg:   208 Min:    79 Max:   921 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:39:00,055 INFO o.a.j.r.Summariser: summary =  25588 in 00:24:48 =   17.2/s Avg:   116 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:39:30,024 INFO o.a.j.r.Summariser: summary +    360 in 00:00:30 =   12.0/s Avg:   166 Min:    65 Max:  1400 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:39:30,025 INFO o.a.j.r.Summariser: summary =  25948 in 00:25:18 =   17.1/s Avg:   116 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:40:00,002 INFO o.a.j.r.Summariser: summary +    534 in 00:00:30 =   17.8/s Avg:   112 Min:    57 Max:   472 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:40:00,003 INFO o.a.j.r.Summariser: summary =  26482 in 00:25:48 =   17.1/s Avg:   116 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:40:30,096 INFO o.a.j.r.Summariser: summary +    540 in 00:00:30 =   17.9/s Avg:   111 Min:    62 Max:   260 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:40:30,097 INFO o.a.j.r.Summariser: summary =  27022 in 00:26:18 =   17.1/s Avg:   116 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:41:00,135 INFO o.a.j.r.Summariser: summary +    522 in 00:00:30 =   17.4/s Avg:   114 Min:    60 Max:   308 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:41:00,136 INFO o.a.j.r.Summariser: summary =  27544 in 00:26:48 =   17.1/s Avg:   116 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:41:30,002 INFO o.a.j.r.Summariser: summary +    504 in 00:00:30 =   16.9/s Avg:   118 Min:    69 Max:   304 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:41:30,002 INFO o.a.j.r.Summariser: summary =  28048 in 00:27:18 =   17.1/s Avg:   116 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:42:00,065 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.3/s Avg:   149 Min:    59 Max:   744 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:42:00,065 INFO o.a.j.r.Summariser: summary =  28448 in 00:27:48 =   17.1/s Avg:   117 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:42:30,306 INFO o.a.j.r.Summariser: summary +    163 in 00:00:30 =    5.4/s Avg:   369 Min:    83 Max:  2444 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:42:30,308 INFO o.a.j.r.Summariser: summary =  28611 in 00:28:18 =   16.8/s Avg:   118 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:43:00,005 INFO o.a.j.r.Summariser: summary +    261 in 00:00:30 =    8.8/s Avg:   228 Min:    64 Max:  3604 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:43:00,006 INFO o.a.j.r.Summariser: summary =  28872 in 00:28:48 =   16.7/s Avg:   119 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:43:30,059 INFO o.a.j.r.Summariser: summary +    385 in 00:00:30 =   12.8/s Avg:   156 Min:    60 Max:   920 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:43:30,060 INFO o.a.j.r.Summariser: summary =  29257 in 00:29:18 =   16.6/s Avg:   119 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:44:00,173 INFO o.a.j.r.Summariser: summary +    404 in 00:00:30 =   13.4/s Avg:   148 Min:    67 Max:   722 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:44:00,173 INFO o.a.j.r.Summariser: summary =  29661 in 00:29:48 =   16.6/s Avg:   120 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:44:30,060 INFO o.a.j.r.Summariser: summary +    338 in 00:00:30 =   11.3/s Avg:   176 Min:    67 Max:  2142 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:44:30,060 INFO o.a.j.r.Summariser: summary =  29999 in 00:30:18 =   16.5/s Avg:   120 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:45:00,060 INFO o.a.j.r.Summariser: summary +    441 in 00:00:30 =   14.7/s Avg:   135 Min:    64 Max:   493 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:45:00,061 INFO o.a.j.r.Summariser: summary =  30440 in 00:30:48 =   16.5/s Avg:   121 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:45:30,017 INFO o.a.j.r.Summariser: summary +    410 in 00:00:30 =   13.7/s Avg:   145 Min:    54 Max:   563 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:45:30,017 INFO o.a.j.r.Summariser: summary =  30850 in 00:31:18 =   16.4/s Avg:   121 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:46:00,001 INFO o.a.j.r.Summariser: summary +    335 in 00:00:30 =   11.2/s Avg:   178 Min:    71 Max:   873 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:46:00,002 INFO o.a.j.r.Summariser: summary =  31185 in 00:31:48 =   16.3/s Avg:   122 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:46:30,037 INFO o.a.j.r.Summariser: summary +    377 in 00:00:30 =   12.6/s Avg:   159 Min:    62 Max:   401 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:46:30,038 INFO o.a.j.r.Summariser: summary =  31562 in 00:32:18 =   16.3/s Avg:   122 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:47:00,028 INFO o.a.j.r.Summariser: summary +    206 in 00:00:30 =    6.9/s Avg:   290 Min:    99 Max:  1228 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:47:00,029 INFO o.a.j.r.Summariser: summary =  31768 in 00:32:48 =   16.1/s Avg:   123 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:47:30,112 INFO o.a.j.r.Summariser: summary +    349 in 00:00:30 =   11.6/s Avg:   172 Min:    60 Max:  1023 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:47:30,112 INFO o.a.j.r.Summariser: summary =  32117 in 00:33:18 =   16.1/s Avg:   124 Min:    54 Max:  4774 Err:     0 (0.00%)
+2018-08-29 11:48:30,859 INFO o.a.j.r.Summariser: summary +    387 in 00:01:01 =    6.4/s Avg:   308 Min:    69 Max: 16001 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:48:30,859 INFO o.a.j.r.Summariser: summary =  32504 in 00:34:19 =   15.8/s Avg:   126 Min:    54 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:49:01,030 INFO o.a.j.r.Summariser: summary +    105 in 00:00:30 =    3.5/s Avg:   568 Min:    94 Max:  3494 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:49:01,030 INFO o.a.j.r.Summariser: summary =  32609 in 00:34:49 =   15.6/s Avg:   127 Min:    54 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:49:30,107 INFO o.a.j.r.Summariser: summary +    356 in 00:00:29 =   12.2/s Avg:   170 Min:    66 Max:  2921 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:49:30,108 INFO o.a.j.r.Summariser: summary =  32965 in 00:35:18 =   15.6/s Avg:   128 Min:    54 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:50:00,089 INFO o.a.j.r.Summariser: summary +    458 in 00:00:30 =   15.3/s Avg:   130 Min:    57 Max:   637 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:50:00,089 INFO o.a.j.r.Summariser: summary =  33423 in 00:35:48 =   15.6/s Avg:   128 Min:    54 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:50:30,107 INFO o.a.j.r.Summariser: summary +    493 in 00:00:30 =   16.4/s Avg:   121 Min:    53 Max:   367 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:50:30,107 INFO o.a.j.r.Summariser: summary =  33916 in 00:36:18 =   15.6/s Avg:   128 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:51:00,084 INFO o.a.j.r.Summariser: summary +    284 in 00:00:30 =    9.5/s Avg:   209 Min:    72 Max:   904 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:51:00,085 INFO o.a.j.r.Summariser: summary =  34200 in 00:36:48 =   15.5/s Avg:   128 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:51:31,705 INFO o.a.j.r.Summariser: summary +     70 in 00:00:32 =    2.2/s Avg:   846 Min:   140 Max:  9798 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:51:31,705 INFO o.a.j.r.Summariser: summary =  34270 in 00:37:20 =   15.3/s Avg:   130 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:52:04,273 INFO o.a.j.r.Summariser: summary +     18 in 00:00:33 =    0.6/s Avg:  3620 Min:   752 Max: 10070 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:52:04,274 INFO o.a.j.r.Summariser: summary =  34288 in 00:37:52 =   15.1/s Avg:   132 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:52:30,517 INFO o.a.j.r.Summariser: summary +     45 in 00:00:26 =    1.7/s Avg:  1091 Min:    88 Max:  8035 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:52:30,518 INFO o.a.j.r.Summariser: summary =  34333 in 00:38:19 =   14.9/s Avg:   133 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:53:00,097 INFO o.a.j.r.Summariser: summary +    113 in 00:00:30 =    3.8/s Avg:   590 Min:    82 Max:  7666 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:53:00,098 INFO o.a.j.r.Summariser: summary =  34446 in 00:38:48 =   14.8/s Avg:   134 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:53:30,105 INFO o.a.j.r.Summariser: summary +    436 in 00:00:30 =   14.5/s Avg:   137 Min:    61 Max:   392 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:53:30,105 INFO o.a.j.r.Summariser: summary =  34882 in 00:39:18 =   14.8/s Avg:   134 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:54:00,011 INFO o.a.j.r.Summariser: summary +    276 in 00:00:30 =    9.2/s Avg:   215 Min:    83 Max:   695 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:54:00,012 INFO o.a.j.r.Summariser: summary =  35158 in 00:39:48 =   14.7/s Avg:   135 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:54:30,140 INFO o.a.j.r.Summariser: summary +    281 in 00:00:30 =    9.3/s Avg:   214 Min:    72 Max:  1218 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:54:30,141 INFO o.a.j.r.Summariser: summary =  35439 in 00:40:18 =   14.7/s Avg:   136 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:55:00,037 INFO o.a.j.r.Summariser: summary +    352 in 00:00:30 =   11.8/s Avg:   169 Min:    78 Max:   618 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:55:00,037 INFO o.a.j.r.Summariser: summary =  35791 in 00:40:48 =   14.6/s Avg:   136 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:55:30,050 INFO o.a.j.r.Summariser: summary +    388 in 00:00:30 =   12.9/s Avg:   154 Min:    66 Max:   992 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:55:30,050 INFO o.a.j.r.Summariser: summary =  36179 in 00:41:18 =   14.6/s Avg:   136 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:56:00,026 INFO o.a.j.r.Summariser: summary +    442 in 00:00:30 =   14.7/s Avg:   135 Min:    64 Max:   418 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:56:00,026 INFO o.a.j.r.Summariser: summary =  36621 in 00:41:48 =   14.6/s Avg:   136 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:56:30,047 INFO o.a.j.r.Summariser: summary +    413 in 00:00:30 =   13.8/s Avg:   145 Min:    78 Max:   758 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:56:30,047 INFO o.a.j.r.Summariser: summary =  37034 in 00:42:18 =   14.6/s Avg:   136 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:57:00,066 INFO o.a.j.r.Summariser: summary +    430 in 00:00:30 =   14.3/s Avg:   139 Min:    68 Max:   332 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:57:00,066 INFO o.a.j.r.Summariser: summary =  37464 in 00:42:48 =   14.6/s Avg:   136 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:57:30,048 INFO o.a.j.r.Summariser: summary +    378 in 00:00:30 =   12.6/s Avg:   158 Min:    58 Max:   593 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:57:30,048 INFO o.a.j.r.Summariser: summary =  37842 in 00:43:18 =   14.6/s Avg:   137 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:58:00,086 INFO o.a.j.r.Summariser: summary +    453 in 00:00:30 =   15.1/s Avg:   132 Min:    63 Max:   373 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:58:00,086 INFO o.a.j.r.Summariser: summary =  38295 in 00:43:48 =   14.6/s Avg:   137 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:58:30,497 INFO o.a.j.r.Summariser: summary +    371 in 00:00:30 =   12.2/s Avg:   162 Min:    60 Max:  1837 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:58:30,497 INFO o.a.j.r.Summariser: summary =  38666 in 00:44:19 =   14.5/s Avg:   137 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 11:59:30,150 INFO o.a.j.r.Summariser: summary +     24 in 00:01:00 =    0.4/s Avg:  4983 Min:   277 Max: 15601 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 11:59:30,150 INFO o.a.j.r.Summariser: summary =  38690 in 00:45:18 =   14.2/s Avg:   140 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:00:00,026 INFO o.a.j.r.Summariser: summary +    336 in 00:00:30 =   11.2/s Avg:   178 Min:    62 Max:   903 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:00:00,026 INFO o.a.j.r.Summariser: summary =  39026 in 00:45:48 =   14.2/s Avg:   140 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:00:30,087 INFO o.a.j.r.Summariser: summary +    496 in 00:00:30 =   16.5/s Avg:   120 Min:    64 Max:   324 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:00:30,088 INFO o.a.j.r.Summariser: summary =  39522 in 00:46:18 =   14.2/s Avg:   140 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:01:00,106 INFO o.a.j.r.Summariser: summary +    446 in 00:00:30 =   14.9/s Avg:   134 Min:    60 Max:  1059 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:01:00,107 INFO o.a.j.r.Summariser: summary =  39968 in 00:46:48 =   14.2/s Avg:   140 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:01:31,011 INFO o.a.j.r.Summariser: summary +    334 in 00:00:31 =   10.8/s Avg:   182 Min:    64 Max:  1101 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:01:31,011 INFO o.a.j.r.Summariser: summary =  40302 in 00:47:19 =   14.2/s Avg:   140 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:02:00,085 INFO o.a.j.r.Summariser: summary +    263 in 00:00:29 =    9.0/s Avg:   223 Min:    72 Max:  1624 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:02:00,087 INFO o.a.j.r.Summariser: summary =  40565 in 00:47:48 =   14.1/s Avg:   141 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:02:30,025 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.1/s Avg:   152 Min:    58 Max:   444 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:02:30,025 INFO o.a.j.r.Summariser: summary =  40957 in 00:48:18 =   14.1/s Avg:   141 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:03:00,072 INFO o.a.j.r.Summariser: summary +    456 in 00:00:30 =   15.2/s Avg:   131 Min:    61 Max:   386 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:03:00,072 INFO o.a.j.r.Summariser: summary =  41413 in 00:48:48 =   14.1/s Avg:   141 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:03:30,040 INFO o.a.j.r.Summariser: summary +    440 in 00:00:30 =   14.7/s Avg:   135 Min:    58 Max:   480 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:03:30,041 INFO o.a.j.r.Summariser: summary =  41853 in 00:49:18 =   14.1/s Avg:   141 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:04:00,219 INFO o.a.j.r.Summariser: summary +    306 in 00:00:30 =   10.1/s Avg:   196 Min:    75 Max:  2712 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:04:00,219 INFO o.a.j.r.Summariser: summary =  42159 in 00:49:48 =   14.1/s Avg:   141 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:04:30,001 INFO o.a.j.r.Summariser: summary +    323 in 00:00:30 =   10.8/s Avg:   184 Min:    79 Max:   775 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:04:30,001 INFO o.a.j.r.Summariser: summary =  42482 in 00:50:18 =   14.1/s Avg:   141 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:05:00,032 INFO o.a.j.r.Summariser: summary +    343 in 00:00:30 =   11.4/s Avg:   174 Min:    68 Max:   917 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:05:00,032 INFO o.a.j.r.Summariser: summary =  42825 in 00:50:48 =   14.1/s Avg:   142 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:05:30,153 INFO o.a.j.r.Summariser: summary +    293 in 00:00:30 =    9.7/s Avg:   205 Min:    61 Max:   557 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:05:30,153 INFO o.a.j.r.Summariser: summary =  43118 in 00:51:18 =   14.0/s Avg:   142 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:06:01,221 INFO o.a.j.r.Summariser: summary +    308 in 00:00:31 =    9.9/s Avg:   193 Min:    80 Max:  2827 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:06:01,221 INFO o.a.j.r.Summariser: summary =  43426 in 00:51:49 =   14.0/s Avg:   142 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:06:30,043 INFO o.a.j.r.Summariser: summary +    157 in 00:00:29 =    5.4/s Avg:   381 Min:    81 Max:  3240 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:06:30,043 INFO o.a.j.r.Summariser: summary =  43583 in 00:52:18 =   13.9/s Avg:   143 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:07:00,065 INFO o.a.j.r.Summariser: summary +    222 in 00:00:30 =    7.4/s Avg:   272 Min:    78 Max:  1371 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:07:00,066 INFO o.a.j.r.Summariser: summary =  43805 in 00:52:48 =   13.8/s Avg:   144 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:07:30,258 INFO o.a.j.r.Summariser: summary +    284 in 00:00:30 =    9.4/s Avg:   211 Min:    69 Max:   892 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:07:30,258 INFO o.a.j.r.Summariser: summary =  44089 in 00:53:18 =   13.8/s Avg:   144 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:08:00,162 INFO o.a.j.r.Summariser: summary +    174 in 00:00:30 =    5.8/s Avg:   339 Min:    90 Max:  2058 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:08:00,162 INFO o.a.j.r.Summariser: summary =  44263 in 00:53:48 =   13.7/s Avg:   145 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:08:30,028 INFO o.a.j.r.Summariser: summary +    134 in 00:00:30 =    4.5/s Avg:   451 Min:    93 Max:  3152 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:08:30,028 INFO o.a.j.r.Summariser: summary =  44397 in 00:54:18 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:09:00,108 INFO o.a.j.r.Summariser: summary +    179 in 00:00:30 =    6.0/s Avg:   334 Min:    88 Max:  1537 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:09:00,108 INFO o.a.j.r.Summariser: summary =  44576 in 00:54:48 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:09:30,049 INFO o.a.j.r.Summariser: summary +    340 in 00:00:30 =   11.4/s Avg:   176 Min:    67 Max:   924 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:09:30,049 INFO o.a.j.r.Summariser: summary =  44916 in 00:55:18 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:10:00,045 INFO o.a.j.r.Summariser: summary +    458 in 00:00:30 =   15.3/s Avg:   130 Min:    66 Max:   403 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:10:00,045 INFO o.a.j.r.Summariser: summary =  45374 in 00:55:48 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:10:30,005 INFO o.a.j.r.Summariser: summary +    446 in 00:00:30 =   14.9/s Avg:   134 Min:    70 Max:   448 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:10:30,005 INFO o.a.j.r.Summariser: summary =  45820 in 00:56:18 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:11:00,023 INFO o.a.j.r.Summariser: summary +    473 in 00:00:30 =   15.8/s Avg:   126 Min:    67 Max:   400 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:11:00,023 INFO o.a.j.r.Summariser: summary =  46293 in 00:56:48 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:11:30,088 INFO o.a.j.r.Summariser: summary +    413 in 00:00:30 =   13.7/s Avg:   145 Min:    62 Max:   494 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:11:30,088 INFO o.a.j.r.Summariser: summary =  46706 in 00:57:18 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:12:00,050 INFO o.a.j.r.Summariser: summary +    346 in 00:00:30 =   11.5/s Avg:   173 Min:    74 Max:   614 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:12:00,050 INFO o.a.j.r.Summariser: summary =  47052 in 00:57:48 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:12:30,012 INFO o.a.j.r.Summariser: summary +    526 in 00:00:30 =   17.6/s Avg:   113 Min:    60 Max:   282 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:12:30,012 INFO o.a.j.r.Summariser: summary =  47578 in 00:58:18 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:13:00,434 INFO o.a.j.r.Summariser: summary +    417 in 00:00:30 =   13.7/s Avg:   144 Min:    70 Max:   514 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:13:00,435 INFO o.a.j.r.Summariser: summary =  47995 in 00:58:48 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:13:30,036 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.2/s Avg:   151 Min:    75 Max:  1129 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:13:30,036 INFO o.a.j.r.Summariser: summary =  48387 in 00:59:18 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:14:00,005 INFO o.a.j.r.Summariser: summary +    487 in 00:00:30 =   16.3/s Avg:   123 Min:    60 Max:   283 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:14:00,005 INFO o.a.j.r.Summariser: summary =  48874 in 00:59:48 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:14:30,042 INFO o.a.j.r.Summariser: summary +    442 in 00:00:30 =   14.7/s Avg:   135 Min:    70 Max:   552 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:14:30,042 INFO o.a.j.r.Summariser: summary =  49316 in 01:00:18 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:15:00,050 INFO o.a.j.r.Summariser: summary +    404 in 00:00:30 =   13.5/s Avg:   148 Min:    60 Max:   427 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:15:00,050 INFO o.a.j.r.Summariser: summary =  49720 in 01:00:48 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:15:30,154 INFO o.a.j.r.Summariser: summary +    303 in 00:00:30 =   10.1/s Avg:   196 Min:    61 Max:  2279 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:15:30,169 INFO o.a.j.r.Summariser: summary =  50023 in 01:01:18 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:16:00,000 INFO o.a.j.r.Summariser: summary +    296 in 00:00:30 =    9.9/s Avg:   203 Min:    56 Max:  2855 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:16:00,000 INFO o.a.j.r.Summariser: summary =  50319 in 01:01:48 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:16:30,000 INFO o.a.j.r.Summariser: summary +    175 in 00:00:30 =    5.8/s Avg:   340 Min:    66 Max:  4044 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:16:30,000 INFO o.a.j.r.Summariser: summary =  50494 in 01:02:18 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:17:00,175 INFO o.a.j.r.Summariser: summary +    172 in 00:00:30 =    5.7/s Avg:   352 Min:    77 Max:  2409 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:17:00,175 INFO o.a.j.r.Summariser: summary =  50666 in 01:02:48 =   13.4/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:17:30,160 INFO o.a.j.r.Summariser: summary +     96 in 00:00:30 =    3.2/s Avg:   625 Min:    91 Max:  2533 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:17:30,160 INFO o.a.j.r.Summariser: summary =  50762 in 01:03:18 =   13.4/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:18:00,384 INFO o.a.j.r.Summariser: summary +    338 in 00:00:30 =   11.2/s Avg:   177 Min:    59 Max:  1076 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:18:00,384 INFO o.a.j.r.Summariser: summary =  51100 in 01:03:48 =   13.3/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:18:30,056 INFO o.a.j.r.Summariser: summary +    232 in 00:00:30 =    7.8/s Avg:   257 Min:    75 Max:  1737 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:18:30,056 INFO o.a.j.r.Summariser: summary =  51332 in 01:04:18 =   13.3/s Avg:   150 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:19:00,063 INFO o.a.j.r.Summariser: summary +    492 in 00:00:30 =   16.4/s Avg:   121 Min:    57 Max:   267 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:19:00,063 INFO o.a.j.r.Summariser: summary =  51824 in 01:04:48 =   13.3/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:19:30,063 INFO o.a.j.r.Summariser: summary +    496 in 00:00:30 =   16.5/s Avg:   120 Min:    61 Max:   362 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:19:30,063 INFO o.a.j.r.Summariser: summary =  52320 in 01:05:18 =   13.4/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:20:00,013 INFO o.a.j.r.Summariser: summary +    505 in 00:00:30 =   16.9/s Avg:   118 Min:    65 Max:   358 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:20:00,013 INFO o.a.j.r.Summariser: summary =  52825 in 01:05:48 =   13.4/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:20:30,019 INFO o.a.j.r.Summariser: summary +    474 in 00:00:30 =   15.8/s Avg:   126 Min:    62 Max:   611 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:20:30,019 INFO o.a.j.r.Summariser: summary =  53299 in 01:06:18 =   13.4/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:21:00,059 INFO o.a.j.r.Summariser: summary +    532 in 00:00:30 =   17.7/s Avg:   112 Min:    63 Max:   328 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:21:00,059 INFO o.a.j.r.Summariser: summary =  53831 in 01:06:48 =   13.4/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:21:30,099 INFO o.a.j.r.Summariser: summary +    517 in 00:00:30 =   17.2/s Avg:   115 Min:    63 Max:   329 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:21:30,099 INFO o.a.j.r.Summariser: summary =  54348 in 01:07:18 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:22:00,080 INFO o.a.j.r.Summariser: summary +    409 in 00:00:30 =   13.6/s Avg:   146 Min:    65 Max:   394 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:22:00,080 INFO o.a.j.r.Summariser: summary =  54757 in 01:07:48 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:22:30,015 INFO o.a.j.r.Summariser: summary +    375 in 00:00:30 =   12.5/s Avg:   159 Min:    60 Max:   992 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:22:30,015 INFO o.a.j.r.Summariser: summary =  55132 in 01:08:18 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:23:00,046 INFO o.a.j.r.Summariser: summary +    333 in 00:00:30 =   11.1/s Avg:   180 Min:    59 Max:  1051 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:23:00,046 INFO o.a.j.r.Summariser: summary =  55465 in 01:08:48 =   13.4/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:23:30,013 INFO o.a.j.r.Summariser: summary +    519 in 00:00:30 =   17.3/s Avg:   115 Min:    56 Max:   336 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:23:30,013 INFO o.a.j.r.Summariser: summary =  55984 in 01:09:18 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:24:00,098 INFO o.a.j.r.Summariser: summary +    528 in 00:00:30 =   17.6/s Avg:   113 Min:    60 Max:   272 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:24:00,098 INFO o.a.j.r.Summariser: summary =  56512 in 01:09:48 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:24:30,000 INFO o.a.j.r.Summariser: summary +    529 in 00:00:30 =   17.7/s Avg:   112 Min:    61 Max:   241 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:24:30,000 INFO o.a.j.r.Summariser: summary =  57041 in 01:10:18 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:25:00,085 INFO o.a.j.r.Summariser: summary +    486 in 00:00:30 =   16.2/s Avg:   123 Min:    56 Max:   407 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:25:00,085 INFO o.a.j.r.Summariser: summary =  57527 in 01:10:48 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:25:30,054 INFO o.a.j.r.Summariser: summary +    516 in 00:00:30 =   17.2/s Avg:   116 Min:    61 Max:   261 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:25:30,054 INFO o.a.j.r.Summariser: summary =  58043 in 01:11:18 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:26:00,039 INFO o.a.j.r.Summariser: summary +    556 in 00:00:30 =   18.5/s Avg:   107 Min:    57 Max:   238 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:26:00,054 INFO o.a.j.r.Summariser: summary =  58599 in 01:11:48 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:26:30,024 INFO o.a.j.r.Summariser: summary +    535 in 00:00:30 =   17.8/s Avg:   111 Min:    56 Max:   243 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:26:30,024 INFO o.a.j.r.Summariser: summary =  59134 in 01:12:18 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:27:00,053 INFO o.a.j.r.Summariser: summary +    545 in 00:00:30 =   18.1/s Avg:   110 Min:    61 Max:   256 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:27:00,053 INFO o.a.j.r.Summariser: summary =  59679 in 01:12:48 =   13.7/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:27:30,010 INFO o.a.j.r.Summariser: summary +    572 in 00:00:30 =   19.1/s Avg:   104 Min:    54 Max:   305 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:27:30,010 INFO o.a.j.r.Summariser: summary =  60251 in 01:13:18 =   13.7/s Avg:   145 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:28:00,064 INFO o.a.j.r.Summariser: summary +    322 in 00:00:30 =   10.7/s Avg:   186 Min:    59 Max:  1774 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:28:00,064 INFO o.a.j.r.Summariser: summary =  60573 in 01:13:48 =   13.7/s Avg:   145 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:28:30,179 INFO o.a.j.r.Summariser: summary +    176 in 00:00:30 =    5.8/s Avg:   341 Min:    93 Max:   981 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:28:30,179 INFO o.a.j.r.Summariser: summary =  60749 in 01:14:18 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:29:00,085 INFO o.a.j.r.Summariser: summary +    169 in 00:00:30 =    5.7/s Avg:   352 Min:    84 Max:  1511 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:29:00,085 INFO o.a.j.r.Summariser: summary =  60918 in 01:14:48 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:29:30,424 INFO o.a.j.r.Summariser: summary +    203 in 00:00:30 =    6.7/s Avg:   296 Min:    93 Max:  1213 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:29:30,424 INFO o.a.j.r.Summariser: summary =  61121 in 01:15:18 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:30:00,114 INFO o.a.j.r.Summariser: summary +    215 in 00:00:30 =    7.2/s Avg:   278 Min:    81 Max:  1041 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:30:00,130 INFO o.a.j.r.Summariser: summary =  61336 in 01:15:48 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:30:30,278 INFO o.a.j.r.Summariser: summary +    156 in 00:00:30 =    5.2/s Avg:   383 Min:    83 Max:  1046 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:30:30,278 INFO o.a.j.r.Summariser: summary =  61492 in 01:16:18 =   13.4/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:31:00,082 INFO o.a.j.r.Summariser: summary +    213 in 00:00:30 =    7.1/s Avg:   281 Min:    82 Max:  1281 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:31:00,082 INFO o.a.j.r.Summariser: summary =  61705 in 01:16:48 =   13.4/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:31:30,061 INFO o.a.j.r.Summariser: summary +    206 in 00:00:30 =    6.9/s Avg:   289 Min:    80 Max:  1340 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:31:30,061 INFO o.a.j.r.Summariser: summary =  61911 in 01:17:18 =   13.3/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:32:00,025 INFO o.a.j.r.Summariser: summary +    198 in 00:00:30 =    6.6/s Avg:   300 Min:    69 Max:  1041 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:32:00,025 INFO o.a.j.r.Summariser: summary =  62109 in 01:17:48 =   13.3/s Avg:   150 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:32:30,027 INFO o.a.j.r.Summariser: summary +    307 in 00:00:30 =   10.2/s Avg:   197 Min:    65 Max:   848 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:32:30,027 INFO o.a.j.r.Summariser: summary =  62416 in 01:18:18 =   13.3/s Avg:   150 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:33:00,080 INFO o.a.j.r.Summariser: summary +    545 in 00:00:30 =   18.1/s Avg:   110 Min:    66 Max:   579 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:33:00,080 INFO o.a.j.r.Summariser: summary =  62961 in 01:18:48 =   13.3/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:33:30,041 INFO o.a.j.r.Summariser: summary +    564 in 00:00:30 =   18.8/s Avg:   106 Min:    67 Max:   221 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:33:30,041 INFO o.a.j.r.Summariser: summary =  63525 in 01:19:18 =   13.4/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:34:00,058 INFO o.a.j.r.Summariser: summary +    577 in 00:00:30 =   19.2/s Avg:   103 Min:    60 Max:   292 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:34:00,058 INFO o.a.j.r.Summariser: summary =  64102 in 01:19:48 =   13.4/s Avg:   149 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:34:30,097 INFO o.a.j.r.Summariser: summary +    573 in 00:00:30 =   19.1/s Avg:   104 Min:    63 Max:   198 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:34:30,097 INFO o.a.j.r.Summariser: summary =  64675 in 01:20:18 =   13.4/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:35:00,049 INFO o.a.j.r.Summariser: summary +    580 in 00:00:30 =   19.4/s Avg:   103 Min:    60 Max:   209 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:35:00,065 INFO o.a.j.r.Summariser: summary =  65255 in 01:20:48 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:35:30,032 INFO o.a.j.r.Summariser: summary +    558 in 00:00:30 =   18.6/s Avg:   107 Min:    66 Max:   260 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:35:30,032 INFO o.a.j.r.Summariser: summary =  65813 in 01:21:18 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:36:00,052 INFO o.a.j.r.Summariser: summary +    568 in 00:00:30 =   18.9/s Avg:   105 Min:    57 Max:   202 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:36:00,052 INFO o.a.j.r.Summariser: summary =  66381 in 01:21:48 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:36:30,015 INFO o.a.j.r.Summariser: summary +    420 in 00:00:30 =   14.0/s Avg:   142 Min:    60 Max:  5125 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:36:30,015 INFO o.a.j.r.Summariser: summary =  66801 in 01:22:18 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:37:00,035 INFO o.a.j.r.Summariser: summary +    407 in 00:00:30 =   13.6/s Avg:   147 Min:    63 Max:   658 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:37:00,035 INFO o.a.j.r.Summariser: summary =  67208 in 01:22:48 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:37:30,105 INFO o.a.j.r.Summariser: summary +    357 in 00:00:30 =   11.9/s Avg:   168 Min:    65 Max:   538 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:37:30,105 INFO o.a.j.r.Summariser: summary =  67565 in 01:23:18 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:38:00,004 INFO o.a.j.r.Summariser: summary +    271 in 00:00:30 =    9.1/s Avg:   220 Min:    73 Max:  1613 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:38:00,005 INFO o.a.j.r.Summariser: summary =  67836 in 01:23:48 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:38:30,186 INFO o.a.j.r.Summariser: summary +    373 in 00:00:30 =   12.4/s Avg:   161 Min:    63 Max:   573 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:38:30,186 INFO o.a.j.r.Summariser: summary =  68209 in 01:24:18 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:39:00,111 INFO o.a.j.r.Summariser: summary +    309 in 00:00:30 =   10.3/s Avg:   193 Min:    64 Max:   951 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:39:00,111 INFO o.a.j.r.Summariser: summary =  68518 in 01:24:48 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:39:30,159 INFO o.a.j.r.Summariser: summary +    335 in 00:00:30 =   11.1/s Avg:   179 Min:    61 Max:   850 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:39:30,159 INFO o.a.j.r.Summariser: summary =  68853 in 01:25:18 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:40:00,013 INFO o.a.j.r.Summariser: summary +    344 in 00:00:30 =   11.5/s Avg:   173 Min:    60 Max:  1096 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:40:00,013 INFO o.a.j.r.Summariser: summary =  69197 in 01:25:48 =   13.4/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:40:30,025 INFO o.a.j.r.Summariser: summary +    525 in 00:00:30 =   17.5/s Avg:   114 Min:    58 Max:   393 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:40:30,025 INFO o.a.j.r.Summariser: summary =  69722 in 01:26:18 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:41:00,015 INFO o.a.j.r.Summariser: summary +    555 in 00:00:30 =   18.5/s Avg:   108 Min:    62 Max:   337 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:41:00,015 INFO o.a.j.r.Summariser: summary =  70277 in 01:26:48 =   13.5/s Avg:   148 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:41:30,004 INFO o.a.j.r.Summariser: summary +    485 in 00:00:30 =   16.2/s Avg:   123 Min:    60 Max:   475 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:41:30,004 INFO o.a.j.r.Summariser: summary =  70762 in 01:27:18 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:42:00,022 INFO o.a.j.r.Summariser: summary +    522 in 00:00:30 =   17.4/s Avg:   114 Min:    65 Max:   549 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:42:00,022 INFO o.a.j.r.Summariser: summary =  71284 in 01:27:48 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:42:30,153 INFO o.a.j.r.Summariser: summary +    507 in 00:00:30 =   16.8/s Avg:   118 Min:    63 Max:   352 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:42:30,153 INFO o.a.j.r.Summariser: summary =  71791 in 01:28:18 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:43:00,050 INFO o.a.j.r.Summariser: summary +    337 in 00:00:30 =   11.3/s Avg:   177 Min:    59 Max:  1067 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:43:00,050 INFO o.a.j.r.Summariser: summary =  72128 in 01:28:48 =   13.5/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:43:30,020 INFO o.a.j.r.Summariser: summary +    505 in 00:00:30 =   16.9/s Avg:   118 Min:    63 Max:   536 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:43:30,020 INFO o.a.j.r.Summariser: summary =  72633 in 01:29:18 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:44:00,038 INFO o.a.j.r.Summariser: summary +    402 in 00:00:30 =   13.4/s Avg:   149 Min:    62 Max:   594 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:44:00,038 INFO o.a.j.r.Summariser: summary =  73035 in 01:29:48 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:44:30,062 INFO o.a.j.r.Summariser: summary +    457 in 00:00:30 =   15.2/s Avg:   131 Min:    54 Max:   507 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:44:30,062 INFO o.a.j.r.Summariser: summary =  73492 in 01:30:18 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:45:00,016 INFO o.a.j.r.Summariser: summary +    486 in 00:00:30 =   16.2/s Avg:   123 Min:    60 Max:   396 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:45:00,016 INFO o.a.j.r.Summariser: summary =  73978 in 01:30:48 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:45:30,020 INFO o.a.j.r.Summariser: summary +    427 in 00:00:30 =   14.2/s Avg:   140 Min:    57 Max:   438 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:45:30,020 INFO o.a.j.r.Summariser: summary =  74405 in 01:31:18 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:46:00,165 INFO o.a.j.r.Summariser: summary +    432 in 00:00:30 =   14.3/s Avg:   139 Min:    61 Max:  5002 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:46:00,165 INFO o.a.j.r.Summariser: summary =  74837 in 01:31:48 =   13.6/s Avg:   147 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:46:30,024 INFO o.a.j.r.Summariser: summary +    538 in 00:00:30 =   18.0/s Avg:   111 Min:    56 Max:   251 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:46:30,024 INFO o.a.j.r.Summariser: summary =  75375 in 01:32:18 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:47:00,060 INFO o.a.j.r.Summariser: summary +    539 in 00:00:30 =   17.9/s Avg:   111 Min:    57 Max:   273 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:47:00,060 INFO o.a.j.r.Summariser: summary =  75914 in 01:32:48 =   13.6/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:47:30,046 INFO o.a.j.r.Summariser: summary +    510 in 00:00:30 =   17.0/s Avg:   117 Min:    61 Max:   312 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:47:30,046 INFO o.a.j.r.Summariser: summary =  76424 in 01:33:18 =   13.7/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:48:00,063 INFO o.a.j.r.Summariser: summary +    545 in 00:00:30 =   18.2/s Avg:   110 Min:    56 Max:   264 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:48:00,063 INFO o.a.j.r.Summariser: summary =  76969 in 01:33:48 =   13.7/s Avg:   146 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:48:30,017 INFO o.a.j.r.Summariser: summary +    522 in 00:00:30 =   17.4/s Avg:   114 Min:    54 Max:   521 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:48:30,017 INFO o.a.j.r.Summariser: summary =  77491 in 01:34:18 =   13.7/s Avg:   145 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:49:00,003 INFO o.a.j.r.Summariser: summary +    565 in 00:00:30 =   18.8/s Avg:   106 Min:    53 Max:   227 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:49:00,003 INFO o.a.j.r.Summariser: summary =  78056 in 01:34:48 =   13.7/s Avg:   145 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:49:30,051 INFO o.a.j.r.Summariser: summary +    471 in 00:00:30 =   15.7/s Avg:   127 Min:    60 Max:   761 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:49:30,051 INFO o.a.j.r.Summariser: summary =  78527 in 01:35:18 =   13.7/s Avg:   145 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:50:00,059 INFO o.a.j.r.Summariser: summary +    540 in 00:00:30 =   18.0/s Avg:   110 Min:    60 Max:   265 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:50:00,059 INFO o.a.j.r.Summariser: summary =  79067 in 01:35:48 =   13.8/s Avg:   145 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:50:30,015 INFO o.a.j.r.Summariser: summary +    524 in 00:00:30 =   17.5/s Avg:   114 Min:    60 Max:   280 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:50:30,015 INFO o.a.j.r.Summariser: summary =  79591 in 01:36:18 =   13.8/s Avg:   144 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:51:00,004 INFO o.a.j.r.Summariser: summary +    493 in 00:00:30 =   16.4/s Avg:   121 Min:    65 Max:   350 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:51:00,004 INFO o.a.j.r.Summariser: summary =  80084 in 01:36:48 =   13.8/s Avg:   144 Min:    53 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:51:30,100 INFO o.a.j.r.Summariser: summary +    479 in 00:00:30 =   15.9/s Avg:   125 Min:    52 Max:   376 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:51:30,100 INFO o.a.j.r.Summariser: summary =  80563 in 01:37:18 =   13.8/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:52:00,071 INFO o.a.j.r.Summariser: summary +    448 in 00:00:30 =   14.9/s Avg:   133 Min:    59 Max:   414 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:52:00,071 INFO o.a.j.r.Summariser: summary =  81011 in 01:37:48 =   13.8/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:52:30,041 INFO o.a.j.r.Summariser: summary +    453 in 00:00:30 =   15.1/s Avg:   132 Min:    60 Max:   418 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:52:30,041 INFO o.a.j.r.Summariser: summary =  81464 in 01:38:18 =   13.8/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:53:00,017 INFO o.a.j.r.Summariser: summary +    451 in 00:00:30 =   15.0/s Avg:   132 Min:    59 Max:   546 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:53:00,017 INFO o.a.j.r.Summariser: summary =  81915 in 01:38:48 =   13.8/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:53:30,088 INFO o.a.j.r.Summariser: summary +    465 in 00:00:30 =   15.5/s Avg:   129 Min:    59 Max:   359 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:53:30,088 INFO o.a.j.r.Summariser: summary =  82380 in 01:39:18 =   13.8/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:54:00,042 INFO o.a.j.r.Summariser: summary +    534 in 00:00:30 =   17.8/s Avg:   112 Min:    58 Max:   416 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:54:00,042 INFO o.a.j.r.Summariser: summary =  82914 in 01:39:48 =   13.8/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:54:30,006 INFO o.a.j.r.Summariser: summary +    525 in 00:00:30 =   17.5/s Avg:   114 Min:    59 Max:   367 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:54:30,006 INFO o.a.j.r.Summariser: summary =  83439 in 01:40:18 =   13.9/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:55:00,077 INFO o.a.j.r.Summariser: summary +    498 in 00:00:30 =   16.6/s Avg:   120 Min:    59 Max:   382 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:55:00,077 INFO o.a.j.r.Summariser: summary =  83937 in 01:40:48 =   13.9/s Avg:   143 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:55:30,107 INFO o.a.j.r.Summariser: summary +    466 in 00:00:30 =   15.5/s Avg:   128 Min:    63 Max:   394 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:55:30,107 INFO o.a.j.r.Summariser: summary =  84403 in 01:41:18 =   13.9/s Avg:   143 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:56:00,084 INFO o.a.j.r.Summariser: summary +    453 in 00:00:30 =   15.1/s Avg:   132 Min:    57 Max:   341 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:56:00,084 INFO o.a.j.r.Summariser: summary =  84856 in 01:41:48 =   13.9/s Avg:   143 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:56:30,014 INFO o.a.j.r.Summariser: summary +    508 in 00:00:30 =   17.0/s Avg:   118 Min:    64 Max:   431 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:56:30,014 INFO o.a.j.r.Summariser: summary =  85364 in 01:42:18 =   13.9/s Avg:   143 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:57:00,020 INFO o.a.j.r.Summariser: summary +    542 in 00:00:30 =   18.1/s Avg:   110 Min:    62 Max:   242 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:57:00,020 INFO o.a.j.r.Summariser: summary =  85906 in 01:42:48 =   13.9/s Avg:   143 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:57:30,006 INFO o.a.j.r.Summariser: summary +    570 in 00:00:30 =   19.0/s Avg:   105 Min:    61 Max:   207 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:57:30,006 INFO o.a.j.r.Summariser: summary =  86476 in 01:43:18 =   14.0/s Avg:   143 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:58:00,007 INFO o.a.j.r.Summariser: summary +    588 in 00:00:30 =   19.6/s Avg:   101 Min:    65 Max:   213 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:58:00,007 INFO o.a.j.r.Summariser: summary =  87064 in 01:43:48 =   14.0/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:58:30,020 INFO o.a.j.r.Summariser: summary +    568 in 00:00:30 =   18.9/s Avg:   105 Min:    61 Max:   226 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:58:30,020 INFO o.a.j.r.Summariser: summary =  87632 in 01:44:18 =   14.0/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:59:00,022 INFO o.a.j.r.Summariser: summary +    560 in 00:00:30 =   18.7/s Avg:   106 Min:    61 Max:   313 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:59:00,022 INFO o.a.j.r.Summariser: summary =  88192 in 01:44:48 =   14.0/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 12:59:30,170 INFO o.a.j.r.Summariser: summary +    459 in 00:00:30 =   15.2/s Avg:   130 Min:    64 Max:   318 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 12:59:30,170 INFO o.a.j.r.Summariser: summary =  88651 in 01:45:18 =   14.0/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:00:00,000 INFO o.a.j.r.Summariser: summary +    523 in 00:00:30 =   17.5/s Avg:   114 Min:    64 Max:   298 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:00:00,000 INFO o.a.j.r.Summariser: summary =  89174 in 01:45:48 =   14.0/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:00:30,022 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.7/s Avg:   119 Min:    65 Max:   291 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:00:30,022 INFO o.a.j.r.Summariser: summary =  89674 in 01:46:18 =   14.1/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:01:00,071 INFO o.a.j.r.Summariser: summary +    511 in 00:00:30 =   17.0/s Avg:   117 Min:    60 Max:   315 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:01:00,071 INFO o.a.j.r.Summariser: summary =  90185 in 01:46:48 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:01:30,076 INFO o.a.j.r.Summariser: summary +    557 in 00:00:30 =   18.6/s Avg:   107 Min:    60 Max:   302 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:01:30,092 INFO o.a.j.r.Summariser: summary =  90742 in 01:47:18 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:02:00,011 INFO o.a.j.r.Summariser: summary +    568 in 00:00:30 =   19.0/s Avg:   105 Min:    60 Max:   272 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:02:00,011 INFO o.a.j.r.Summariser: summary =  91310 in 01:47:48 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:02:30,026 INFO o.a.j.r.Summariser: summary +    540 in 00:00:30 =   18.0/s Avg:   110 Min:    57 Max:   380 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:02:30,026 INFO o.a.j.r.Summariser: summary =  91850 in 01:48:18 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:03:00,058 INFO o.a.j.r.Summariser: summary +    591 in 00:00:30 =   19.7/s Avg:   101 Min:    55 Max:   208 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:03:00,058 INFO o.a.j.r.Summariser: summary =  92441 in 01:48:48 =   14.2/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:03:30,029 INFO o.a.j.r.Summariser: summary +    590 in 00:00:30 =   19.7/s Avg:   101 Min:    65 Max:   213 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:03:30,029 INFO o.a.j.r.Summariser: summary =  93031 in 01:49:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:04:00,046 INFO o.a.j.r.Summariser: summary +    524 in 00:00:30 =   17.5/s Avg:   114 Min:    61 Max:   620 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:04:00,046 INFO o.a.j.r.Summariser: summary =  93555 in 01:49:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:04:30,049 INFO o.a.j.r.Summariser: summary +    551 in 00:00:30 =   18.4/s Avg:   108 Min:    60 Max:   251 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:04:30,049 INFO o.a.j.r.Summariser: summary =  94106 in 01:50:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:05:00,055 INFO o.a.j.r.Summariser: summary +    515 in 00:00:30 =   17.2/s Avg:   116 Min:    66 Max:   290 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:05:00,055 INFO o.a.j.r.Summariser: summary =  94621 in 01:50:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:05:30,018 INFO o.a.j.r.Summariser: summary +    557 in 00:00:30 =   18.6/s Avg:   107 Min:    65 Max:   415 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:05:30,018 INFO o.a.j.r.Summariser: summary =  95178 in 01:51:18 =   14.3/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:06:00,004 INFO o.a.j.r.Summariser: summary +    561 in 00:00:30 =   18.7/s Avg:   106 Min:    62 Max:   312 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:06:00,004 INFO o.a.j.r.Summariser: summary =  95739 in 01:51:48 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:06:30,005 INFO o.a.j.r.Summariser: summary +    570 in 00:00:30 =   19.0/s Avg:   105 Min:    58 Max:   242 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:06:30,005 INFO o.a.j.r.Summariser: summary =  96309 in 01:52:18 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:07:00,107 INFO o.a.j.r.Summariser: summary +    531 in 00:00:30 =   17.6/s Avg:   112 Min:    59 Max:   453 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:07:00,107 INFO o.a.j.r.Summariser: summary =  96840 in 01:52:48 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:07:30,128 INFO o.a.j.r.Summariser: summary +    377 in 00:00:30 =   12.6/s Avg:   157 Min:    60 Max:  1330 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:07:30,128 INFO o.a.j.r.Summariser: summary =  97217 in 01:53:18 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:08:00,140 INFO o.a.j.r.Summariser: summary +    297 in 00:00:30 =    9.9/s Avg:   202 Min:    71 Max:  1153 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:08:00,140 INFO o.a.j.r.Summariser: summary =  97514 in 01:53:48 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:08:30,022 INFO o.a.j.r.Summariser: summary +    303 in 00:00:30 =   10.1/s Avg:   196 Min:    72 Max:   895 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:08:30,022 INFO o.a.j.r.Summariser: summary =  97817 in 01:54:18 =   14.3/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:09:00,056 INFO o.a.j.r.Summariser: summary +    293 in 00:00:30 =    9.8/s Avg:   206 Min:    60 Max:  1255 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:09:00,057 INFO o.a.j.r.Summariser: summary =  98110 in 01:54:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:09:30,355 INFO o.a.j.r.Summariser: summary +    191 in 00:00:30 =    6.3/s Avg:   316 Min:   102 Max:  1773 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:09:30,355 INFO o.a.j.r.Summariser: summary =  98301 in 01:55:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:10:00,456 INFO o.a.j.r.Summariser: summary +    268 in 00:00:30 =    8.9/s Avg:   224 Min:    66 Max:  1112 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:10:00,456 INFO o.a.j.r.Summariser: summary =  98569 in 01:55:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:10:30,381 INFO o.a.j.r.Summariser: summary +    346 in 00:00:30 =   11.6/s Avg:   172 Min:    65 Max:  1621 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:10:30,381 INFO o.a.j.r.Summariser: summary =  98915 in 01:56:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:11:00,002 INFO o.a.j.r.Summariser: summary +    271 in 00:00:30 =    9.1/s Avg:   220 Min:    63 Max:  1258 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:11:00,002 INFO o.a.j.r.Summariser: summary =  99186 in 01:56:48 =   14.2/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:11:30,037 INFO o.a.j.r.Summariser: summary +    281 in 00:00:30 =    9.4/s Avg:   213 Min:    69 Max:  1786 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:11:30,038 INFO o.a.j.r.Summariser: summary =  99467 in 01:57:18 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:12:00,000 INFO o.a.j.r.Summariser: summary +    569 in 00:00:30 =   19.0/s Avg:   105 Min:    62 Max:   327 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:12:00,000 INFO o.a.j.r.Summariser: summary = 100036 in 01:57:48 =   14.2/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:12:30,005 INFO o.a.j.r.Summariser: summary +    587 in 00:00:30 =   19.6/s Avg:   102 Min:    52 Max:   394 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:12:30,005 INFO o.a.j.r.Summariser: summary = 100623 in 01:58:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:13:00,020 INFO o.a.j.r.Summariser: summary +    533 in 00:00:30 =   17.8/s Avg:   112 Min:    62 Max:   264 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:13:00,020 INFO o.a.j.r.Summariser: summary = 101156 in 01:58:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:13:30,226 INFO o.a.j.r.Summariser: summary +    519 in 00:00:30 =   17.2/s Avg:   115 Min:    62 Max:   802 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:13:30,227 INFO o.a.j.r.Summariser: summary = 101675 in 01:59:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:14:00,614 INFO o.a.j.r.Summariser: summary +    302 in 00:00:30 =    9.9/s Avg:   198 Min:    79 Max:  1198 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:14:00,614 INFO o.a.j.r.Summariser: summary = 101977 in 01:59:49 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:14:30,000 INFO o.a.j.r.Summariser: summary +    467 in 00:00:29 =   15.9/s Avg:   127 Min:    57 Max:  1011 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:14:30,000 INFO o.a.j.r.Summariser: summary = 102444 in 02:00:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:15:00,090 INFO o.a.j.r.Summariser: summary +    579 in 00:00:30 =   19.2/s Avg:   103 Min:    56 Max:   219 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:15:00,090 INFO o.a.j.r.Summariser: summary = 103023 in 02:00:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:15:30,031 INFO o.a.j.r.Summariser: summary +    508 in 00:00:30 =   17.0/s Avg:   117 Min:    65 Max:   320 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:15:30,047 INFO o.a.j.r.Summariser: summary = 103531 in 02:01:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:16:00,003 INFO o.a.j.r.Summariser: summary +    412 in 00:00:30 =   13.7/s Avg:   145 Min:    72 Max:   345 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:16:00,003 INFO o.a.j.r.Summariser: summary = 103943 in 02:01:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:16:30,069 INFO o.a.j.r.Summariser: summary +    444 in 00:00:30 =   14.8/s Avg:   135 Min:    64 Max:   459 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:16:30,069 INFO o.a.j.r.Summariser: summary = 104387 in 02:02:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:17:00,010 INFO o.a.j.r.Summariser: summary +    565 in 00:00:30 =   18.9/s Avg:   105 Min:    63 Max:   209 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:17:00,010 INFO o.a.j.r.Summariser: summary = 104952 in 02:02:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:17:30,043 INFO o.a.j.r.Summariser: summary +    491 in 00:00:30 =   16.3/s Avg:   122 Min:    60 Max:   948 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:17:30,043 INFO o.a.j.r.Summariser: summary = 105443 in 02:03:18 =   14.3/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:18:00,015 INFO o.a.j.r.Summariser: summary +    506 in 00:00:30 =   16.9/s Avg:   118 Min:    64 Max:   274 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:18:00,015 INFO o.a.j.r.Summariser: summary = 105949 in 02:03:48 =   14.3/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:18:30,019 INFO o.a.j.r.Summariser: summary +    499 in 00:00:30 =   16.6/s Avg:   120 Min:    61 Max:   293 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:18:30,019 INFO o.a.j.r.Summariser: summary = 106448 in 02:04:18 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:19:00,005 INFO o.a.j.r.Summariser: summary +    542 in 00:00:30 =   18.1/s Avg:   110 Min:    62 Max:   282 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:19:00,005 INFO o.a.j.r.Summariser: summary = 106990 in 02:04:48 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:19:30,023 INFO o.a.j.r.Summariser: summary +    428 in 00:00:30 =   14.3/s Avg:   139 Min:    61 Max:   523 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:19:30,023 INFO o.a.j.r.Summariser: summary = 107418 in 02:05:18 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:20:00,023 INFO o.a.j.r.Summariser: summary +    444 in 00:00:30 =   14.8/s Avg:   135 Min:    65 Max:   302 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:20:00,023 INFO o.a.j.r.Summariser: summary = 107862 in 02:05:48 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:20:30,042 INFO o.a.j.r.Summariser: summary +    510 in 00:00:30 =   17.0/s Avg:   117 Min:    63 Max:   455 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:20:30,042 INFO o.a.j.r.Summariser: summary = 108372 in 02:06:18 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:21:00,020 INFO o.a.j.r.Summariser: summary +    525 in 00:00:30 =   17.5/s Avg:   113 Min:    63 Max:   313 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:21:00,020 INFO o.a.j.r.Summariser: summary = 108897 in 02:06:48 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:21:30,108 INFO o.a.j.r.Summariser: summary +    418 in 00:00:30 =   13.9/s Avg:   138 Min:    65 Max:  2192 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:21:30,108 INFO o.a.j.r.Summariser: summary = 109315 in 02:07:18 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:22:00,133 INFO o.a.j.r.Summariser: summary +    144 in 00:00:30 =    4.8/s Avg:   426 Min:    71 Max:  3195 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:22:00,133 INFO o.a.j.r.Summariser: summary = 109459 in 02:07:48 =   14.3/s Avg:   139 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:22:30,037 INFO o.a.j.r.Summariser: summary +    168 in 00:00:30 =    5.6/s Avg:   359 Min:    65 Max:  1939 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:22:30,037 INFO o.a.j.r.Summariser: summary = 109627 in 02:08:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:23:00,832 INFO o.a.j.r.Summariser: summary +     34 in 00:00:31 =    1.1/s Avg:  1754 Min:   136 Max:  6833 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:23:00,832 INFO o.a.j.r.Summariser: summary = 109661 in 02:08:49 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:23:30,146 INFO o.a.j.r.Summariser: summary +    187 in 00:00:29 =    6.4/s Avg:   323 Min:    61 Max:  5758 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:23:30,146 INFO o.a.j.r.Summariser: summary = 109848 in 02:09:18 =   14.2/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:24:02,340 INFO o.a.j.r.Summariser: summary +    236 in 00:00:32 =    7.3/s Avg:   252 Min:    68 Max:  6167 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:24:02,340 INFO o.a.j.r.Summariser: summary = 110084 in 02:09:50 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:24:30,013 INFO o.a.j.r.Summariser: summary +    207 in 00:00:28 =    7.5/s Avg:   290 Min:    65 Max:  4859 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:24:30,028 INFO o.a.j.r.Summariser: summary = 110291 in 02:10:18 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:25:00,012 INFO o.a.j.r.Summariser: summary +    450 in 00:00:30 =   15.0/s Avg:   133 Min:    64 Max:  1040 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:25:00,012 INFO o.a.j.r.Summariser: summary = 110741 in 02:10:48 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:25:30,021 INFO o.a.j.r.Summariser: summary +    438 in 00:00:30 =   14.6/s Avg:   136 Min:    68 Max:   522 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:25:30,037 INFO o.a.j.r.Summariser: summary = 111179 in 02:11:18 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:26:00,226 INFO o.a.j.r.Summariser: summary +    399 in 00:00:30 =   13.2/s Avg:   150 Min:    70 Max:  2394 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:26:00,226 INFO o.a.j.r.Summariser: summary = 111578 in 02:11:48 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:26:30,018 INFO o.a.j.r.Summariser: summary +    490 in 00:00:30 =   16.4/s Avg:   121 Min:    59 Max:   452 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:26:30,018 INFO o.a.j.r.Summariser: summary = 112068 in 02:12:18 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:27:00,105 INFO o.a.j.r.Summariser: summary +    514 in 00:00:30 =   17.1/s Avg:   116 Min:    60 Max:   303 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:27:00,105 INFO o.a.j.r.Summariser: summary = 112582 in 02:12:48 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:27:30,067 INFO o.a.j.r.Summariser: summary +    520 in 00:00:30 =   17.4/s Avg:   115 Min:    58 Max:   373 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:27:30,067 INFO o.a.j.r.Summariser: summary = 113102 in 02:13:18 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:28:00,017 INFO o.a.j.r.Summariser: summary +    521 in 00:00:30 =   17.4/s Avg:   114 Min:    66 Max:   405 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:28:00,017 INFO o.a.j.r.Summariser: summary = 113623 in 02:13:48 =   14.2/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:28:30,091 INFO o.a.j.r.Summariser: summary +    519 in 00:00:30 =   17.3/s Avg:   115 Min:    53 Max:   452 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:28:30,091 INFO o.a.j.r.Summariser: summary = 114142 in 02:14:18 =   14.2/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:29:00,048 INFO o.a.j.r.Summariser: summary +    485 in 00:00:30 =   16.2/s Avg:   123 Min:    58 Max:   460 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:29:00,048 INFO o.a.j.r.Summariser: summary = 114627 in 02:14:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:29:30,205 INFO o.a.j.r.Summariser: summary +    306 in 00:00:30 =   10.1/s Avg:   195 Min:    61 Max:  1679 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:29:30,205 INFO o.a.j.r.Summariser: summary = 114933 in 02:15:18 =   14.2/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:30:00,012 INFO o.a.j.r.Summariser: summary +    276 in 00:00:30 =    9.3/s Avg:   217 Min:    58 Max:  3188 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:30:00,012 INFO o.a.j.r.Summariser: summary = 115209 in 02:15:48 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:30:30,014 INFO o.a.j.r.Summariser: summary +    506 in 00:00:30 =   16.9/s Avg:   118 Min:    65 Max:   446 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:30:30,014 INFO o.a.j.r.Summariser: summary = 115715 in 02:16:18 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:31:00,064 INFO o.a.j.r.Summariser: summary +    568 in 00:00:30 =   18.9/s Avg:   105 Min:    59 Max:   350 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:31:00,064 INFO o.a.j.r.Summariser: summary = 116283 in 02:16:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:31:30,020 INFO o.a.j.r.Summariser: summary +    533 in 00:00:30 =   17.8/s Avg:   112 Min:    62 Max:   413 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:31:30,020 INFO o.a.j.r.Summariser: summary = 116816 in 02:17:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:32:00,010 INFO o.a.j.r.Summariser: summary +    513 in 00:00:30 =   17.1/s Avg:   116 Min:    61 Max:   919 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:32:00,014 INFO o.a.j.r.Summariser: summary = 117329 in 02:17:48 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:32:30,315 INFO o.a.j.r.Summariser: summary +    333 in 00:00:30 =   11.0/s Avg:   172 Min:    67 Max:  3274 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:32:30,315 INFO o.a.j.r.Summariser: summary = 117662 in 02:18:18 =   14.2/s Avg:   140 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:33:00,511 INFO o.a.j.r.Summariser: summary +     87 in 00:00:30 =    2.9/s Avg:   720 Min:    98 Max:  3274 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:33:00,511 INFO o.a.j.r.Summariser: summary = 117749 in 02:18:49 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:33:30,733 INFO o.a.j.r.Summariser: summary +    105 in 00:00:30 =    3.5/s Avg:   575 Min:   111 Max:  2810 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:33:30,733 INFO o.a.j.r.Summariser: summary = 117854 in 02:19:19 =   14.1/s Avg:   141 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:34:00,022 INFO o.a.j.r.Summariser: summary +    131 in 00:00:29 =    4.5/s Avg:   452 Min:    76 Max:  3018 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:34:00,022 INFO o.a.j.r.Summariser: summary = 117985 in 02:19:48 =   14.1/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:34:30,075 INFO o.a.j.r.Summariser: summary +    123 in 00:00:30 =    4.1/s Avg:   489 Min:    86 Max:  3044 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:34:30,090 INFO o.a.j.r.Summariser: summary = 118108 in 02:20:18 =   14.0/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:35:00,233 INFO o.a.j.r.Summariser: summary +    170 in 00:00:30 =    5.6/s Avg:   352 Min:    79 Max:  2520 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:35:00,233 INFO o.a.j.r.Summariser: summary = 118278 in 02:20:48 =   14.0/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:35:30,192 INFO o.a.j.r.Summariser: summary +    145 in 00:00:30 =    4.8/s Avg:   410 Min:    96 Max:  1568 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:35:30,192 INFO o.a.j.r.Summariser: summary = 118423 in 02:21:18 =   14.0/s Avg:   142 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:36:00,443 INFO o.a.j.r.Summariser: summary +    138 in 00:00:30 =    4.6/s Avg:   438 Min:    88 Max:  2871 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:36:00,443 INFO o.a.j.r.Summariser: summary = 118561 in 02:21:48 =   13.9/s Avg:   143 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:36:30,754 INFO o.a.j.r.Summariser: summary +     99 in 00:00:30 =    3.3/s Avg:   608 Min:    94 Max:  4433 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:36:30,754 INFO o.a.j.r.Summariser: summary = 118660 in 02:22:19 =   13.9/s Avg:   143 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:37:00,071 INFO o.a.j.r.Summariser: summary +    138 in 00:00:29 =    4.7/s Avg:   432 Min:    76 Max:  2139 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:37:00,071 INFO o.a.j.r.Summariser: summary = 118798 in 02:22:48 =   13.9/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:37:30,777 INFO o.a.j.r.Summariser: summary +     87 in 00:00:31 =    2.8/s Avg:   689 Min:   133 Max:  3356 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:37:30,777 INFO o.a.j.r.Summariser: summary = 118885 in 02:23:19 =   13.8/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:38:00,278 INFO o.a.j.r.Summariser: summary +    122 in 00:00:30 =    4.1/s Avg:   490 Min:    85 Max:  4468 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:38:00,278 INFO o.a.j.r.Summariser: summary = 119007 in 02:23:48 =   13.8/s Avg:   144 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:38:30,164 INFO o.a.j.r.Summariser: summary +    134 in 00:00:30 =    4.5/s Avg:   448 Min:    78 Max:  2253 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:38:30,164 INFO o.a.j.r.Summariser: summary = 119141 in 02:24:18 =   13.8/s Avg:   145 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:39:00,762 INFO o.a.j.r.Summariser: summary +    148 in 00:00:31 =    4.8/s Avg:   405 Min:    71 Max:  3102 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:39:00,763 INFO o.a.j.r.Summariser: summary = 119289 in 02:24:49 =   13.7/s Avg:   145 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:39:30,198 INFO o.a.j.r.Summariser: summary +    261 in 00:00:29 =    8.9/s Avg:   228 Min:    57 Max:  1534 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:39:30,214 INFO o.a.j.r.Summariser: summary = 119550 in 02:25:18 =   13.7/s Avg:   145 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:40:00,069 INFO o.a.j.r.Summariser: summary +    156 in 00:00:30 =    5.2/s Avg:   384 Min:    83 Max:  2055 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:40:00,069 INFO o.a.j.r.Summariser: summary = 119706 in 02:25:48 =   13.7/s Avg:   145 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:40:30,067 INFO o.a.j.r.Summariser: summary +    292 in 00:00:30 =    9.7/s Avg:   205 Min:    64 Max:  2033 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:40:30,067 INFO o.a.j.r.Summariser: summary = 119998 in 02:26:18 =   13.7/s Avg:   146 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:41:00,088 INFO o.a.j.r.Summariser: summary +    289 in 00:00:30 =    9.6/s Avg:   206 Min:    66 Max:  6350 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:41:00,088 INFO o.a.j.r.Summariser: summary = 120287 in 02:26:48 =   13.7/s Avg:   146 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:41:30,023 INFO o.a.j.r.Summariser: summary +    137 in 00:00:30 =    4.6/s Avg:   435 Min:    80 Max:  3269 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:41:30,023 INFO o.a.j.r.Summariser: summary = 120424 in 02:27:18 =   13.6/s Avg:   146 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:42:01,099 INFO o.a.j.r.Summariser: summary +     64 in 00:00:31 =    2.1/s Avg:   942 Min:   120 Max:  6662 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:42:01,099 INFO o.a.j.r.Summariser: summary = 120488 in 02:27:49 =   13.6/s Avg:   147 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:42:30,023 INFO o.a.j.r.Summariser: summary +    115 in 00:00:29 =    4.0/s Avg:   521 Min:    84 Max:  2454 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:42:30,023 INFO o.a.j.r.Summariser: summary = 120603 in 02:28:18 =   13.6/s Avg:   147 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:43:00,491 INFO o.a.j.r.Summariser: summary +    118 in 00:00:30 =    3.9/s Avg:   509 Min:    90 Max:  3640 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:43:00,491 INFO o.a.j.r.Summariser: summary = 120721 in 02:28:49 =   13.5/s Avg:   147 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:43:32,766 INFO o.a.j.r.Summariser: summary +     98 in 00:00:32 =    3.0/s Avg:   627 Min:    84 Max:  5823 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:43:32,766 INFO o.a.j.r.Summariser: summary = 120819 in 02:29:21 =   13.5/s Avg:   148 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:44:01,068 INFO o.a.j.r.Summariser: summary +     62 in 00:00:28 =    2.2/s Avg:   958 Min:   106 Max:  5427 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:44:01,068 INFO o.a.j.r.Summariser: summary = 120881 in 02:29:49 =   13.4/s Avg:   148 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:44:30,068 INFO o.a.j.r.Summariser: summary +     86 in 00:00:29 =    3.0/s Avg:   679 Min:   116 Max:  3602 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:44:30,068 INFO o.a.j.r.Summariser: summary = 120967 in 02:30:18 =   13.4/s Avg:   148 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:45:01,268 INFO o.a.j.r.Summariser: summary +     63 in 00:00:31 =    2.0/s Avg:   963 Min:   264 Max:  2396 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:45:01,268 INFO o.a.j.r.Summariser: summary = 121030 in 02:30:49 =   13.4/s Avg:   149 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:45:30,094 INFO o.a.j.r.Summariser: summary +    108 in 00:00:29 =    3.7/s Avg:   551 Min:    83 Max:  2396 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:45:30,094 INFO o.a.j.r.Summariser: summary = 121138 in 02:31:18 =   13.3/s Avg:   149 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:46:00,204 INFO o.a.j.r.Summariser: summary +    277 in 00:00:30 =    9.2/s Avg:   218 Min:    73 Max:   663 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:46:00,204 INFO o.a.j.r.Summariser: summary = 121415 in 02:31:48 =   13.3/s Avg:   149 Min:    52 Max: 16001 Err:     0 (0.00%)
+2018-08-29 13:46:30,091 INFO o.a.j.r.Summariser: summary +    228 in 00:00:30 =    7.6/s Avg:   262 Min:    83 Max:  2314 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-08-29 13:46:30,091 INFO o.a.j.r.Summariser: summary = 121643 in 02:32:18 =   13.3/s Avg:   150 Min:    52 Max: 16001 Err:     0 (0.00%)
